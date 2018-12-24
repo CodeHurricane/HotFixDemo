@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+	<Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="test"
+	    android:onClick="test"
+	    android:layout_centerInParent="true"
+	    android:id="@+id/btn_test"
+	    />
+	<Button 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="fix"
+	    android:onClick="fix"
+	    android:layout_below="@id/btn_test"
+	    />
+</RelativeLayout>
